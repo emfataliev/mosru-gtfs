@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "7071371d6e5bfab7dd2fbed4bd722299b23879e7922ae01e963456e65fa4bc99"
+            "sha256": "aeed124c5bd9fec63a8c0b388b612b3107e65ec6ceef1b8d80b412aa2369bc8b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -46,6 +46,13 @@
             ],
             "markers": "python_version < '3'",
             "version": "==0.5.5"
+        },
+        "enum": {
+            "hashes": [
+                "sha256:8c7cf3587eda51008bcc1eed99ea2c331ccd265c231dbaa95ec5258d3dc03100"
+            ],
+            "index": "pypi",
+            "version": "==0.4.7"
         },
         "funcsigs": {
             "hashes": [
