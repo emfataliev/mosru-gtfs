@@ -1,6 +1,6 @@
 # mosru-gtfs [![Build Status](https://travis-ci.com/emfataliev/mosru-gtfs.svg?token=p1MD5suP99eunAoAZz1b&branch=master)](https://travis-ci.com/emfataliev/mosru-gtfs)
 
-Программа для построения GTFS файла для города Москва с официального сайта мэра Москвы
+Программа для построения GTFS файла для Москвы. Источником данных является [API Портала открытых данных][1]
 
 # Запуск
 
@@ -18,3 +18,5 @@ optional arguments:
   -h, --help         show this help message and exit
   --api-key API_KEY  API key from apidata.mos.ru
 ```
+
+[1]: https://apidata.mos.ru
