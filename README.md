@@ -4,8 +4,17 @@
 
 # Запуск
 
-``` 
+```shell script
 pipenv shell 
 pipenv install
-python2 main.py
+python main.py --api-key API_KEY
+```
+
+```shell script
+python main.py -h
+usage: main.py [-h] --api-key API_KEY
+
+optional arguments:
+  -h, --help         show this help message and exit
+  --api-key API_KEY  API key from apidata.mos.ru
 ```
