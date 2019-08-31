@@ -6,6 +6,9 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+pytest = "*"
 
 [requires]
 python_version = "2.7"
+
+PYTHONWARNINGS="ignore:DEPRECATION::pip._internal.cli.base_command"
