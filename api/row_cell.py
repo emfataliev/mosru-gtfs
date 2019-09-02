@@ -13,5 +13,5 @@ class RowCell:
     def encoded_value(self):
         return self.value().encode(ENCODING)
 
-    def encoded_value_as_string(self):
+    def encoded_string_value(self):
         return str(self.value()).encode(ENCODING)

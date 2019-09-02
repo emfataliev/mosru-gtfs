@@ -11,7 +11,7 @@ class StopTime:
         self.__stop_sequence_cell = RowCell(stop_time, 'stop_sequence')
 
     def stop_id(self):
-        return self.__stop_id_cell.encoded_value_as_string()
+        return self.__stop_id_cell.encoded_string_value()
 
     def trip_id(self):
         return self.__trip_id_cell.encoded_value()

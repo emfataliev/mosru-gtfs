@@ -23,4 +23,4 @@ class Route:
         return self.__agency_code_cell.encoded_value()
 
     def route_type(self):
-        return self.__route_type_cell.encoded_value_as_string()
+        return self.__route_type_cell.encoded_string_value()

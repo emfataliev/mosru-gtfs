@@ -10,7 +10,7 @@ class Stop:
         self.__coordinates = Coordinates(stop_row)
 
     def id(self):
-        return self.__id_cell.encoded_value_as_string()
+        return self.__id_cell.encoded_string_value()
 
     def stop_name(self):
         return self.__stop_name_cell.value()
