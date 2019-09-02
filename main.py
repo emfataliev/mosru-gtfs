@@ -1,10 +1,12 @@
 import argparse
 
+from api.client.params.impl.api_key import ApiKey
+
 
 def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--api-key", required=True, help="API key from apidata.mos.ru")
-    args = vars(ap.parse_args())
+    arguments = argparse.ArgumentParser()
+    arguments.add_argument("--api-key", required=True, help="API key from apidata.mos.ru")
+    api_key = ApiKey(arguments)
 
 
 if __name__ == "__main__":
