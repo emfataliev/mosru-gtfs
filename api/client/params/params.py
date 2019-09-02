@@ -1,4 +1,5 @@
 class Params:
+
     def __init__(self, *request_param):
         self.__request_params = request_param
 
